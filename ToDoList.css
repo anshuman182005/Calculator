@@ -1,0 +1,69 @@
+@import url("animate.css");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    overflow-x: hidden;
+}
+h1 {
+    text-align: center;
+    font-size: 11.9rem;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+input {
+    height: 8.4vh;
+    width: 30.1vw !important;
+    padding: 0.25rem;
+    font-size: 1.5rem;
+    /* border-radius: 4px 0px 0px 4px; */
+    border-radius: inherit;
+    caret-color: red;
+    border: transparent;
+}
+input:focus {
+    outline: transparent;
+}
+#search-area {
+    width: 40.535vw;
+    display: block;
+    border-radius: 0.25rem;
+    margin: auto;
+    background-color: white;
+    font-family: sans-serif;
+    /* box-shadow: 0px 0px 10px black; */
+}
+#tasks-container {
+    display: none;
+    background-color: white;
+    border-radius: 0.25rem;
+}
+.tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.4vh;
+    cursor: pointer;
+}
+#dropdown-icon {
+    float: right;
+    margin-top: 1.1rem;
+    margin-right: 0.25rem;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 5rem;
+    }
+    #search-area {
+        margin: 0px 0.313rem 0px 0.313rem;
+    }
+    input {
+        width: 13.4vw;
+    }
+}
