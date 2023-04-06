@@ -123,7 +123,6 @@ input {
     width: 30.1vw !important;
     padding: 0.25rem;
     font-size: 1.5rem;
-    /* border-radius: 4px 0px 0px 4px; */
     border-radius: inherit;
     caret-color: red;
     border: transparent;
@@ -138,7 +137,6 @@ input:focus {
     margin: auto;
     background-color: white;
     font-family: sans-serif;
-    /* box-shadow: 0px 0px 10px black; */
 }
 #tasks-container {
     display: none;
